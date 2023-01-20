@@ -22,3 +22,9 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
+
+.btn_shadow {
+  box-shadow: 0px 1px 22px -8px rgba(255,82,191,0.36);
+-webkit-box-shadow: 0px 1px 22px -8px rgba(255,82,191,0.36);
+-moz-box-shadow: 0px 1px 22px -8px rgba(255,82,191,0.36);
+}
