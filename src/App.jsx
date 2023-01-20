@@ -20,7 +20,7 @@ const App = () => {
         <Conversations />
         <Users />
       </div>
-      {/* <CTA /> */}
+      <CTA />
       {/* <Footer /> */}
     </div>
   );
