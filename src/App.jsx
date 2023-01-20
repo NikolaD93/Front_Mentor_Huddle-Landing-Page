@@ -1,9 +1,25 @@
-import Header from "./components/Header";
+import {
+  Conversations,
+  CTA,
+  Diagram,
+  Footer,
+  GrowTogether,
+  Header,
+  Hero,
+  Users,
+} from "./components";
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Header />
+      <Hero />
+      {/* <Diagram />
+      <GrowTogether />
+      <Conversations />
+      <Users />
+      <CTA />
+      <Footer /> */}
     </div>
   );
 };
