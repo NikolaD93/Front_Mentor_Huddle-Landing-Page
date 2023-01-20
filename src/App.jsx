@@ -15,9 +15,11 @@ const App = () => {
       <Header />
       <Hero />
       <Diagram />
-      {/* <GrowTogether /> */}
-      {/* <Conversations /> */}
-      {/* <Users /> */}
+      <div className="my-[130px]">
+        <GrowTogether />
+        <Conversations />
+        <Users />
+      </div>
       {/* <CTA /> */}
       {/* <Footer /> */}
     </div>
