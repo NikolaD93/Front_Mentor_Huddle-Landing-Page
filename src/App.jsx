@@ -8,6 +8,7 @@ import {
   Hero,
   Users,
 } from "./components";
+import BackToTop from "react-back-to-top-button";
 
 const App = () => {
   return (
@@ -21,7 +22,14 @@ const App = () => {
         <Users />
       </div>
       <CTA />
-      {/* <Footer /> */}
+      <Footer />
+      <BackToTop
+        showAt={200}
+        speed={1500}
+        easing="easeInOutQuint"
+      >
+        <ion-icon style={{color:'hsl(322, 100%, 66%)', fontSize: "4rem"}} name="caret-up-circle-outline"></ion-icon>
+      </BackToTop>
     </div>
   );
 };

@@ -17,7 +17,11 @@ module.exports = {
         sm: "576px",
         md: "768px",
         lg: "992px",
-      }
+      },
+      backgroundImage: theme => ({
+        "desktop": "url('./assets/bg-footer-top-desktop.svg')",
+        "mobile": "url('./assets/bg-footer-top-mobile.svg')",
+      }),
     },
   },
   plugins: [],
